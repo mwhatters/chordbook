@@ -224,7 +224,7 @@ def menu(rootscalelist):
 		chordTypeTertianSelection(rootscalelist)
 	elif chordtype == "3" or chordtype == "4" or chordtype == "5" or chordtype == "6":
 		print "Apologies, not yet available"
-		chooseChordType(rootscalelist)
+		menu(rootscalelist)
 	elif chordtype == "7":
 		print "Okay, lets choose a new root!"
 		main(False)
@@ -233,7 +233,7 @@ def menu(rootscalelist):
 		numberOfNotesCustomChord(rootscalelist, False)
 	else:
 		print "Make sure to choose a number."
-		chooseChordType(rootscalelist)
+		menu(rootscalelist)
 
 
 ###CHOOSE A ROOT###
